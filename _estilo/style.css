@@ -109,6 +109,7 @@ h1#tituloPrincipal{
 h2{
     font-family: 'android';
     color: var(--cor6);
+    font-weight: normal;
     background-image: linear-gradient(to right,#3dda846e, #3dda8400);
     text-indent: 0.4em;
 }
