@@ -100,6 +100,7 @@ main{
 }
 
 h1#tituloPrincipal{
+    font-weight: normal;
     font-family: 'android';
     font-size: 2em;
     color: var(--cor6) ;
@@ -156,7 +157,7 @@ h3{
     border-bottom-right-radius: 10px;
 }
  ul{
-     list-style-image: url("/_imagens/item.png");
+     columns: 2;
  }
 
 /*imagens*/
@@ -176,11 +177,17 @@ img{
 
 #videoYoutube{
     background-color: var(--cor5);
-    padding: 2%;
+    position: relative;
+    margin-bottom: 24px;
     text-align: center;
-    display: block;
+    padding: 2%;
 }
 
+#videoYoutbe > iframe{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+}
 /*configuração footer*/
 footer{
     background-color: var(--cor5);
